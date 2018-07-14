@@ -1,0 +1,134 @@
+/*  Copyright (c) 2014 Asier Aguado. All Right Reserved. */
+
+@font-face
+{
+font-family: "maDion";
+src: url('../font/Halogen.ttf');
+} 
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "maDion";
+    font-size: 4.5vh;
+    line-height: 6vh;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #def4f7;
+    background-image: url("../img/cloud.png");
+    background-repeat: no-repeat;
+    color: #2E2D30;
+}
+
+#logo {
+	font-weight: bold;
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8vh;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 16vh;
+    padding: 0;
+}
+
+#icon {
+    height: 16vh;
+    width: 16vh;
+    display: inline-block;
+}
+
+#title {
+    text-align: left;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    width: 120px;
+    display: inline-block;
+    line-height: 100%;
+}
+
+.menu {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a:link,.menu a:visited {
+    display:block;
+    color:#FFFFFF;
+    width: 100%;
+    text-align:center;
+    text-decoration:none;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+}
+
+#appmenu a:link,#appmenu a:visited {
+background-color: #7FAA00;
+}
+
+#appmenu a:hover,#appmenu a:active {
+background-color:#5C7B00;
+}
+
+#optionsmenu a:link,#optionsmenu a:visited {
+background-color: #A76B17;
+}
+
+#optionsmenu a:hover,#optionsmenu a:active {
+background-color: #764D14;
+}
+
+#miscmenu a:link,#miscmenu a:visited {
+width: 50%;
+margin-left: auto; margin-right: auto;
+background-color: #A76B17;
+}
+
+#miscmenu a:hover,#miscmenu a:active {
+background-color: #764D14;
+}
+
+
+#fillerdiv {
+	height: 0px;
+	margin-top: 80px;
+}
+
+#floor {
+	position: absolute;
+	bottom: 0px;
+	width: 93%;
+	height: 80px;
+	padding-left: 7%;
+	background-image: url("../img/grass.png");
+    background-repeat: repeat-x;
+    background-color: #DBEEF1;
+    z-index: -1;
+}
+
+#floor #apples {
+	position: absolute;
+	bottom: 0px;
+	margin-left: 50%;
+}
+

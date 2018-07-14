@@ -1,0 +1,199 @@
+/*  Copyright (c) 2014 Asier Aguado. All Right Reserved. */
+
+@-webkit-keyframes swing {
+ 0% {
+    -webkit-transform: rotate(15deg);
+    -webkit-transform-origin: center top;
+ }
+ 50% {
+    -webkit-transform: rotate(-15deg);
+    -webkit-transform-origin: center top;
+ }
+100%{
+    -webkit-transform: rotate(15deg);
+    -webkit-transform-origin: center top;
+ }
+}
+
+@-moz-keyframes swing {
+ 0% {
+    transform: rotate(15deg);
+    transform-origin: center top;
+ }
+ 50% {
+    transform: rotate(-15deg);
+    transform-origin: center top;
+ }
+100%{
+    transform: rotate(15deg);
+    transform-origin: center top;
+ }
+}
+
+@keyframes swing {
+ 0% {
+    transform: rotate(15deg);
+    transform-origin: center top;
+ }
+ 50% {
+    transform: rotate(-15deg);
+    transform-origin: center top;
+ }
+100%{
+    transform: rotate(15deg);
+    transform-origin: center top;
+ }
+}
+@font-face
+{
+font-family: "maDion";
+src: url('../font/Halogen.ttf');
+} 
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "maDion";
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 3.2vh;
+    line-height: 4.7vh;
+}
+
+
+#container {
+    background: url(../img/bg-tree.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.apple {
+    position: absolute;
+    width: 20%;
+    left: 47%;
+    top: 9%;
+    z-index: 2;
+}
+
+#treeapple {
+    left: 47%;
+    top: 9%;
+    -webkit-animation: swing 3s infinite;
+    -moz-animation: swing 3s infinite;
+    animation: swing 3s infinite;
+}
+
+#text {
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    width: 190px;
+    height: 150px;
+}
+
+#textnum {
+    font-size: 1.5em;
+    line-height: 100%;
+}
+
+#num {
+	font-weight: bold;
+    font-size: 7em;
+    line-height: 100%;
+}
+
+#navicons {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    margin: 5px;
+    font-size: 5vh;
+}
+
+#navicons a {
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    display: block;
+    background-color: orange;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#navicons a:hover {
+    background-color: darkorange;
+}
+
+
+#floor {
+	position: absolute;
+	bottom: -15px;
+	width: 93%;
+	height: 80px;
+	padding-left: 7%;
+	background-image: url("../img/grass.png");
+    background-repeat: repeat-x;
+    z-index: 1;
+}
+
+#dialog {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: 150px;
+    background-image: url("../img/bien.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    visibility: hidden;
+    font-size: 2.5vh;
+    line-height: 4.5vh;
+    font-weight: bold;
+}
+
+#dialog p {
+    margin-top: 16%;
+    margin-left: 4.5%;
+}
+
+@media screen and (min-width: 500px) {
+	#dialog {
+		width: 487px;
+		height: 225px;
+		padding-top: 80px;
+	}
+
+    #dialog p {
+        margin-top: 2%;
+    }
+}
+
+#dialog .message {
+    font-size: 1.9em;
+}
+
+#dialog .continue {
+    font-size: 1em;
+    margin-top: 10px;
+}

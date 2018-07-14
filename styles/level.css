@@ -1,0 +1,85 @@
+/*  Copyright (c) 2014 Asier Aguado. All Right Reserved. */
+
+@font-face
+{
+font-family: "maDion";
+src: url('../font/Halogen.ttf');
+} 
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "maDion";
+    font-size: 4.5vh;
+    line-height: 6vh;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #def4f7;
+    background-image: url("../img/cloud.png");
+    background-repeat: no-repeat;
+    color: #2E2D30;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a:link,.menu a:visited {
+    display:block;
+    color: #FAFAFA;
+    width: 100%;
+    text-align:center;
+    text-decoration:none;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+#optionsmenu a:link,#optionsmenu a:visited {
+background-color: #DF7401;
+}
+
+#optionsmenu a:hover,#optionsmenu a:active {
+background-color: #B43104;
+}
+
+#optionsmenu .label {
+	font-size: 2.8vh;
+	font-family: "maDion", sans-serif;
+	color: #424242;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.centeredtxt {
+	font-size: 5vh;
+    text-align: center;
+}
+

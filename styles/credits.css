@@ -1,0 +1,77 @@
+/*  Copyright (c) 2014 Asier Aguado. All Right Reserved. */
+
+@font-face
+{
+font-family: "maDion";
+src: url('../font/Halogen.ttf');
+} 
+
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "maDion";
+    font-size: 4.5vh;
+    line-height: 6vh;
+    padding: 0;
+    margin: 0;
+    background-color: #def4f7;
+    background-image: url("../img/cloud.png");
+    background-repeat: no-repeat;
+    color: #2E2D30;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.centeredtxt {
+	font-size: 5vh;
+    text-align: center;
+}
+
+.textbody {
+	font-size: 3vh;
+    text-align: center;
+    background-color: #FAFAFA;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.heading {
+	font-weight: bold;
+	font-size: 3.5vh;
+}
+
+#navicons {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    margin: 5px;
+    font-size: 5vh;
+    font-weight: bold;
+    line-height: 4.5vh;
+}
+
+#navicons a {
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    display: block;
+    background-color: orange;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#navicons a:hover {
+    background-color: darkorange;
+}
+

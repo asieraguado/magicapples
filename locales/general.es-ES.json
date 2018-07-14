@@ -1,0 +1,47 @@
+{
+  "app": {
+    "name": "Manzanas Mágicas"
+  },
+  "nav": {
+    "home": "Menú",
+    "language": "Cambiar idioma",
+    "touchtocontinue": "Toca la pantalla para continuar"
+  },
+  "menu": {
+    "magictree": "El Árbol Mágico",
+    "counting": "Contar manzanas",
+    "firstsums": "Primeras sumas",
+    "level": "Nivel: ",
+    "exit": "Salir",
+    "credits": "Créditos"
+  },
+  "levels": {
+  	"level1": "Nivel 1",
+  	"level2": "Nivel 2",
+  	"level3": "Nivel 3",
+  	"level1desc": "Números del 1 al 5",
+  	"level2desc": "Números del 1 al 10",
+  	"level3desc": "Números del 1 al 20",
+  	"selectlevel": "Selecciona un nivel"
+  },
+  "questions": {
+    "howmanysum": "¿Cuántas son?",
+    "howmanyapples": "¿Cuántas manzanas hay?"
+  },
+  "messages": {
+    "ok": "¡Muy bien!",
+    "tryagain": "¡Vuelve a intentarlo!",
+    "letscount": "¡Vamos a contar!"
+  },
+  "credits": {
+  	"creditslbl": "Créditos",
+    "originalidea": "Idea original",
+  	"programminganddesign": "Diseño y programación",
+  	"thirdparty": "Terceros",
+  	"license": "Licencia",
+  	"licinfo": "Copyright (C) 2014  Asier Aguado. Este programa es Software Libre: puede redistribuirlo y/o modificarlo bajo los términos de la \"GNU General Public License\" publcada por la Free Software Foundation, tanto en su versión 3 de la Licencia como (a su elección) cualquier versión posterior. (https://www.gnu.org/licenses/).",
+  	"license3": "Licencias de terceros",
+  	"licinfo3": "Clipart de manzana: dominio público<br>Fuente Halogen: dominio público<br>jQuery: licencia MIT<br>jQuery Easing: licencia BSD<br>",
+	"specialthanks": "Agradecimientos"
+  }
+}

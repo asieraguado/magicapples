@@ -1,0 +1,47 @@
+{
+  "app": {
+    "name": "Magic Apples"
+  },
+  "nav": {
+    "home": "Home",
+    "language": "Change language",
+    "touchtocontinue": "Touch screen to continue"
+  },
+  "menu": {
+    "magictree": "The Magic Tree",
+    "counting": "Counting Apples",
+    "firstsums": "First Sums",
+    "level": "Level: ",
+    "exit": "Exit"
+  },
+  "levels": {
+  	"level1": "Level 1",
+  	"level2": "Level 2",
+  	"level3": "Level 3",
+  	"level1desc": "Numbers from 1 to 5",
+  	"level2desc": "Numbers from 1 to 10",
+  	"level3desc": "Numbers from 1 to 20",
+  	"selectlevel": "Select a level"
+  },
+  "questions": {
+    "howmanysum": "How many are they?",
+    "howmanyapples": "How many apples are there?"
+  },
+  "messages": {
+    "ok": "Great!",
+    "tryagain": "Try again!",
+    "letscount": "Let's count!"
+  },
+  "credits": {
+  	"creditslbl": "Credits",
+    "originalidea": "Original idea",
+  	"programminganddesign": "Programming and design",
+  	"thirdparty": "Third party",
+  	"license": "License",
+  	"licinfo": "Copyright (C) 2014  Asier Aguado. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. (https://www.gnu.org/licenses/).",
+  	"license3": "Third party licenses",
+  	"licinfo3": "Apple clipart: public domain<br>Halogen font: public domain<br>jQuery: MIT license<br>jQuery Easing: BSD license<br>",
+	"specialthanks": "Special thanks"
+  }
+  
+}

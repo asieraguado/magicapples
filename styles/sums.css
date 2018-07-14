@@ -1,0 +1,221 @@
+/*  Copyright (c) 2014 Asier Aguado. All Right Reserved. */
+
+@font-face
+{
+font-family: "maDion";
+src: url('../font/Halogen.ttf');
+} 
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "maDion";
+    font-size: 3vh;
+    line-height: 4.5vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #def4f7;
+    background-image: url("../img/cloud.png");
+    background-repeat: no-repeat;
+    color: #2E2D30;
+}
+
+body p {
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#question {
+    height: 13%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#question p {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+    padding-top: 6vh;
+}
+
+#data {
+    height: 75%;
+    width: 100%;
+}
+
+#data #graphic {
+    height: 60%;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: #DFE9CF;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#data #graphic #left {
+    position: absolute;
+    width: 40%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+#data #graphic #right {
+    position: absolute;
+    width: 40%;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+#data #graphic #op {
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    bottom: 15%;
+    text-align: center;
+    font-size: 4em;
+}
+
+#data #text {
+    height: 13%;
+    text-align: center;
+    font-size: 3.2em;
+    line-height: 90%;
+    padding-top: 2%;
+}
+
+#data #answer {
+    height: 13%;
+    text-align: center;
+    font-size: 3.2em;
+    line-height: 90%;
+    padding-bottom: 2%;
+}
+
+#keys {
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+    background-color: lightslategrey;
+    border-top: 3px solid black;
+}
+
+#keys div {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#keys .key {
+    width: 21%;
+    height: 80%;
+    float: left;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 8vh;
+    font-weight: bold;
+    font-family: "maDion";
+    margin: 2%;
+    padding-top: 2%;
+    border: 3px solid black;
+    border-radius: 45%;
+}
+
+#keys .key:hover {
+    background-color: darkorange;
+}
+
+#navicons {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    margin: 5px;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+#navicons a {
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    display: block;
+    background-color: orange;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#navicons a:hover {
+    background-color: darkorange;
+}
+
+#dialog {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: 150px;
+    background-image: url("../img/bien.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    visibility: hidden;
+    font-weight: bold;
+}
+
+#dialog p {
+    margin-top: 16%;
+    margin-left: 4.5%;
+}
+
+@media screen and (min-width: 500px) {
+	#dialog {
+		width: 487px;
+		height: 225px;
+		padding-top: 80px;
+	}
+    #dialog p {
+        margin-top: 2%;
+    }
+}
+
+#dialog .message {
+    font-size: 1.9em;
+}
+
+#dialog .continue {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#blockingdiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}

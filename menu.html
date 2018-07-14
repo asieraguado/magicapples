@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="cordova.js"></script>
+        <title>Menu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/menu.css" type="text/css">
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <div id="logo">
+            <img id="icon" src="img/icon-256.png" alt="appicon">
+            <div id="title">Magic Apples</div>
+        </div>
+        <div id="appmenu" class="menu">
+            <ul>
+                <li><a id="txt_magictree" href="magictree.html">Magic Tree</a></li>
+                <li><a id="txt_countingapples" href="count.html">Counting Apples</a></li>
+                <li><a id="txt_firstsums" href="sums.html">First Sums</a></li>
+            </ul>
+        </div>
+         <div id="optionsmenu" class="menu">
+            <ul>
+            	<li><a id="txt_level" href="level.html">Level: 1</a></li>
+                <li><a id="txt_language" href="#">Change language</a></li>
+                <!-- This action is disabled .... <li><a id="txt_exit" href="#">Exit</a></li>  ... -->
+            </ul>
+        </div>
+        <div id="miscmenu" class="menu">
+       		<ul>
+       		<li><a id="txt_credits" href="credits.html">Credits</a></li>
+       		</ul>
+        </div>
+        
+		<div id="fillerdiv"></div>
+		&nbsp;
+		<div id="floor">
+		<div id="apples">
+		<img src="img/red_apple-r.png"><img src="img/red_apple-l.png">
+		</div>
+		</div>
+
+        
+        <script src="js/menu.js"></script>
+    </body>
+</html>
+
+<!-- v2.0_19-10-2014 !-->

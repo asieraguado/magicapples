@@ -1,0 +1,45 @@
+{
+	"name": "Magic Apples",
+	"description": "Educational app for children in pre-school stage. They will start becoming familiar with numbers and mathematics, playing and through experience. Their age will not be an obstacle to start learning.",
+	"developer": {
+		"name": "Asier Aguado"
+	},
+	
+	"default_locale": "en",
+	
+	"launch_path": "/index.html",
+	
+	"fullscreen": "true",
+	
+	"icons": {
+		"32": "/img/icon-32.png",
+		"48": "/img/icon-48.png",
+		"60": "/img/icon-60.png",
+		"64": "/img/icon-64.png",
+		"90": "/img/icon-90.png",
+		"120": "/img/icon-120.png",
+		"128": "/img/icon-128.png",
+		"256": "/img/icon-256.png"
+	},
+	
+	"locales": {
+	"es": {
+		"name": "Manzanas Mágicas",
+		"description": "Aplicación educativa para niños y niñas en edad de preescolar. Con ella empezarán a familiarizarse con los números y tendrán su primer contacto con las matemáticas jugando y a través de la experiencia, sin que su edad sea una barrera para aprender."
+	},
+	
+	"eu": {
+		"name": "Sagar Magikoak",
+		"description": "Haur hezkuntzan aurkitzen diren haurrentzako aplikazioa. Aplikazio honi esker, haurrek zenbakiak ezagutzen hasi eta matematikarekin lehenengo kontaktua izango dute, jolasaren eta esperientziaren bidez."
+	},
+	"en": {
+		"name": "Magic Apples",
+		"description": "Educational app for children in pre-school stage. They will start becoming familiar with numbers and mathematics, playing and through experience. Their age will not be an obstacle to start learning."
+	}
+	},
+	
+	"orientation": "portrait",
+	
+	"version": "2.1"
+
+}

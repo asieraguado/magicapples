@@ -1,0 +1,47 @@
+{
+  "app": {
+    "name": "Sagar Magikoak"
+  },
+  "nav": {
+    "home": "Hasiera",
+    "language": "Hizkuntza aldatu",
+    "touchtocontinue": "Pantaila ukitu jarraitzeko"
+  },
+  "menu": {
+    "magictree": "Zuhaitz Magikoa",
+    "counting": "Sagarrak Zenbatu",
+    "firstsums": "Lehen Batuketak",
+    "level": "Maila: ",
+    "exit": "Irten",
+    "credits": "Kredituak"
+  },
+  "levels": {
+  	"level1": "1. maila",
+  	"level2": "2. maila",
+  	"level3": "3. maila",
+  	"level1desc": "1etik 5erainoko zenbakiak",
+  	"level2desc": "1etik 10erainoko zenbakiak",
+  	"level3desc": "1etik 20rainoko zenbakiak",
+  	"selectlevel": "Maila aukeratu"
+  },
+  "questions": {
+    "howmanysum": "Zenbat dira?",
+    "howmanyapples": "Zenbat sagar daude?"
+  },
+  "messages": {
+    "ok": "Oso ondo!",
+    "tryagain": "Saiatu berriz!",
+    "letscount": "Goazen zenbatzera!"
+  },
+  "credits": {
+  	"creditslbl": "Kredituak",
+    "originalidea": "Ideia originala",
+  	"programminganddesign": "Programazioa eta diseinua",
+  	"thirdparty": "Besteak",
+  	"license": "Lizentzia",
+  	"licinfo": "Copyright (C) 2014  Asier Aguado. Programa hau Software Librea da: banatu eta/edo aldatu dezakezu Free Software Foundation-en \"GNU Geneal Public License\" lizentziarien termionei egokituz, lizentziaren hirugarren bertsioan edo, zure aukeraz, edozein hurrengo bertsio batean. (https://www.gnu.org/licenses/)",
+  	"license3": "Besteen lizentziak",
+  	"licinfo3": "Apple clipart: jabari publikoa<br>Halogen font: jabari publikoa <br>jQuery: MIT lizentzia<br>jQuery Easing: BSD lizentzia<br>",
+	"specialthanks": "Eskerrak"
+  }
+}
